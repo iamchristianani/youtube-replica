@@ -1,0 +1,269 @@
+@media only screen and (min-width: 992px) {
+    .one-of-two-box {
+        width: 49%;
+    }
+} 
+
+@media only screen and (min-width: 1400px) {
+    .right-column {
+        margin-top: 60px;
+    }
+} 
+
+main {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: azure;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h1 {
+    color: rosybrown;
+}
+
+.right-column {
+    margin-top: 30px;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hashtags {
+    color: #378fdc;
+    font-size: 12px;
+}
+
+.desc-text {
+    color: #a09f9f;
+}
+
+.views-and-date {
+    color: white;
+}
+
+.creator-name-subs {
+    line-height: 1em;;
+}
+
+.comment-and-likes {
+    line-height: 1em;
+}
+
+.comment-text {
+    margin-top: 7px;
+    line-height: 0.7em;
+}
+
+.creator-right {
+    margin: auto;
+}
+
+.creator-right > i {
+    margin: auto;
+}
+
+.creator-right > .creator-inner {
+    float: right;
+}
+
+.form-box > form > textarea {
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0%;
+}
+
+.form-box > form > textarea:focus {
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0%;
+    outline: none !important;
+    box-shadow: none;
+    color: white;
+}
+
+.form-box > form > div > button {
+    border-radius: 0%;
+}
+
+.form-box > form > div > button > .cancel-button {
+    background-color: transparent;
+}
+
+.user-comment-text {
+    margin-top: -15px;
+}
+
+.user-comment-likes {
+    color: #a0a0a0;
+    font-size: 12px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+
+/*
+#outer {
+    float: left;
+    width: 65%;
+    margin-left: -20px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#left-button {
+    float: left;
+    width: 30px;
+    text-align: center;
+    color: white;
+}
+
+#right-button {
+    float: left;
+    width: 30px;
+    text-align: center;
+    color: white;
+}
+
+#right-button > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+#left-button > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+#inner:first-child {
+    margin-left: 0;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
+}*/
+
+
+
+
+#outer {
+    float: left;
+    width: 350px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#left-button {
+    float: left;
+    width: 30px;
+    text-align: center;
+}
+
+#right-button {
+    float: left;
+    width: 30px;
+    text-align: center;
+}
+
+  
+
+#right-button > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+#left-button > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+  
+#inner:first-child {
+    margin-left: 0;
+}
+
+label {
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
+}
+ 
+
+
+
+
+
+
+.video {
+    height: 100px;
+    width: 170px;
+    background-color: black;
+    border-radius: 5%;
+    background-image: url(../img/trey-songz.jpg);     
+    background-size: cover;
+}
+
+.video > img {
+    max-width:100%;
+    max-height:100%;
+    object-fit: contain;
+} 
+
+.related-box {
+    margin-top: 20px;
+}
+
+.rel-video-title {
+    font-size: 14px;
+}
+
+.rel-video-author {
+    color: #a0a0a0;
+    font-size: 12px;
+    margin: auto;
+    margin-top: -15px;
+}
+
+.rel-video-stats {
+    color: #a0a0a0;
+    font-size: 12px;
+    margin: auto;
+}
